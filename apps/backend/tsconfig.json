@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",    
+    "module": "commonjs",                               
+    "rootDir": "./src",                              
+    "moduleResolution": "node10",
+    "outDir": "./dist",  
+    "esModuleInterop": true,    
+    "forceConsistentCasingInFileNames": true,   
+    "baseUrl": ".",
+    "strict": true,  
+    "skipLibCheck": true
+  },
+  "extends": "../../tsconfig.json",
+  "include": ["src", "package.json"],
+  "exclude": ["node_modules"]
+}
